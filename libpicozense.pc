@@ -1,0 +1,9 @@
+prefix=${PICOZENSE_INSTALL_DIR}
+exec_prefix=${prefix}
+includedir=${prefix}/Include
+libdir=${exec_prefix}/Lib/x64
+Name: libpicozense
+Description: The Library for Pico Zense
+Version: 1.0.0
+Cflags: -I${includedir}/
+Libs: -L${libdir} -lpicozense_api

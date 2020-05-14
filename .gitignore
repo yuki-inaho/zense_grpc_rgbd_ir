@@ -1,0 +1,8 @@
+# protobuf
+build/
+protos/image.grpc.pb.cc
+protos/image.grpc.pb.h
+protos/image.pb.cc
+protos/image.pb.h
+scripts/image_pb2.py
+scripts/image_pb2_grpc.py

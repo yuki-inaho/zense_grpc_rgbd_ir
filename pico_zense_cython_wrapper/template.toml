@@ -1,0 +1,30 @@
+####################################
+###  Capture Camera Parameters  ####
+####################################
+
+[General]
+capture_frames = 10
+n_camera = 1
+smoothing_filter = 1
+sensor_id = "Camera0"
+
+[Camera0_Factory]
+fx = 0
+fy = 0
+cx = 0
+cy = 0
+p1 = 0
+p2 = 0
+k1 = 0
+k2 = 0
+k3 = 0
+k4 = 0
+k5 = 0
+k6 = 0
+
+[Camera0]
+camera_name = "camera0"
+serial_no = ""
+range1 = 0
+range2 = -1
+rgb_image = 1

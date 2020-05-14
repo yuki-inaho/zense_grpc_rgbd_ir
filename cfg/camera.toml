@@ -1,0 +1,49 @@
+[General]
+capture_frames = 10
+n_camera = 1
+smoothing_filter = 1
+sensor_id = "Camera0"
+set_roll = 0.0
+set_pitch = 0.0
+set_yaw = 0.0
+
+[Selection]
+pcl_cutoff_dist = 1.1
+target_max_dist = 0.85
+target_min_dist = 0.3
+target_min_len = 0.25
+target_max_len = 0.45
+target_max_tilt = 30.0
+
+[Camera0_Factory]
+fx = 624.4120483398438
+fy = 623.8995971679688
+cx = 337.0201110839844
+cy = 238.2990417480469
+p1 = -0.0002840710803866386
+p2 = -0.0005135062383487821
+k1 = -0.1210293099284172
+k2 = 0.1796087473630905
+k3 = -0.04009322449564934
+k4 = 0.1340572088956833
+k5 = 0.1042647808790207
+k6 = 0.01372646726667881
+
+[Camera0]
+camera_name = "camera0"
+serial_no = "PD71A1EGD8280033P"
+range1 = 0
+range2 = 2
+rgb_image = -1
+height = 480
+width = 640
+fx = 624.4120483398438
+fy = 623.8995971679688
+cx = 337.0201110839844
+cy = 238.2990417480469
+rot_angle_roll = 0.0
+rot_angle_pitch = 0.0
+rot_angle_yaw = 0.0
+translation_x = 0.0
+translation_y = 0.0
+translation_z = 0.0
